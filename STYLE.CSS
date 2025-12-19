@@ -1,0 +1,237 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+/* Banner / judul atas web ---------------------------------------------------------------- banner judul web*/
+.banner {
+  background-color: #4aa94d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Gambar ------------------------------------------------------------------ gambar*/
+img {
+  display:list-item;
+  margin: 20px auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+/* bio tokoh musik, olahraga, politik---------------------- judul topik*/
+.banner {
+  background-color: #1e008b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu Navigasi ---------------------------------------------------------------------------------- tombol*/
+.menu {
+  background-color: #9a9a9a;
+}
+
+/*posisi tombol*/
+.menu ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/*ukuran tombol dalam*/
+.menu li {
+  margin: 0 15px;
+   background-color: #1e008b;  /* Warna hijau */
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 3px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/*untuk warna tombol saat diarah*/
+.menu a:hover {
+  background-color: #998383;
+  border-radius: 40;
+}
+
+/* Konten Utama */
+.konten {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+/*paragraf konten bawah beda warna*/
+.konten p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #9a9a9a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+/*tombol ditengah tanpa garis panjang*/
+.tombol ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/*ukuran tombol dalam*/
+.tombol li {
+  margin: 0 15px;
+   background-color: #1e008b;  /* Warna hijau */
+  color: white;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 1px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*bagian teks pada tombol*/
+.tombol a {
+  display: block;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 3px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/*untuk warna tombol saat diarah*/
+.tombol li:hover {
+  background-color: #301c1c;
+  border-radius: 40;
+}
+/* Section Contact */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Judul */
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #1f2933;
+}
+
+/* Deskripsi */
+.contact-section p {
+    margin-bottom: 30px;
+    color: #4b5563;
+    text-align: center;
+}
+
+/* Form */
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Label */
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #374151;
+}
+
+/* Input & Textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus state */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Button */
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover button */
+.contact-form button:hover {
+    background-color: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .contact-section h2 {
+        font-size: 26px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+}
